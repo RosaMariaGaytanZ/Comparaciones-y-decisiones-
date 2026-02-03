@@ -1,0 +1,19 @@
+let nota = prompt('¿Cual es tu calificacion?')
+console.log(nota)
+
+if (nota > 0){
+    console.log('True')
+}
+
+if (nota >= 90) {
+    console.log('Excelente')
+}
+else if (nota >= 75 && nota <= 89) {
+    console.log('Bien')
+}
+else if (nota >= 60 && nota <= 74){
+    console.log('Suficiente')
+}
+else{
+    console.log('No aprobaste')
+}
